@@ -1,23 +1,22 @@
 //
-//  A003VC.m
+//  Sub2TerceroVC.m
 //  BorrarUITaBarController
 //
-//  Created by Henry AT on 12/29/14.
+//  Created by Henry AT on 12/30/14.
 //  Copyright (c) 2014 Apps4s. All rights reserved.
 //
 
-#import "A003VC.h"
+#import "Sub2TerceroVC.h"
 
-@interface A003VC ()
+@interface Sub2TerceroVC ()
 
 @end
 
-@implementation A003VC
+@implementation Sub2TerceroVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -35,22 +34,24 @@
 }
 */
 
-- (IBAction)btnSiguiente:(id)sender {
+- (IBAction)btnSalir:(id)sender {
     
+//    [self dismissViewControllerAnimated:YES completion:nil];
+    
+    [self.navigationController popViewControllerAnimated:YES];
+    
+}
 
-//    UIApplication * application = [UIApplication sharedApplication];
-//    UIWindow *backWindow = application.windows[0];
-    
-//    UIStoryboard *myStoryboard = backWindow.rootViewController.storyboard;
-//    MiTabBarController * tabTemp = (MiTabBarController *)backWindow.rootViewController.tabBarController;
-    
+- (IBAction)btnInicio:(id)sender {
+    NSLog(@"btn Inicio");
 
+//    [self.navigationController popToRootViewControllerAnimated:YES];
     
-    SubTerceroVC * ff = [self.navigationController.viewControllers objectAtIndex:1];
-
     
-    [self.navigationController pushViewController:ff animated:YES];
-    
+//    [self.navigationController popoverPresentationController];
+//    [self.navigationController popToRootViewControllerAnimated:YES];
+//    [self.navigationController popToViewController:nil animated:YES];
+    [self.navigationController popViewControllerAnimated:YES];
     
     
 }

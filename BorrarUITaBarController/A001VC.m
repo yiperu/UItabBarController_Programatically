@@ -38,4 +38,49 @@
 }
 */
 
+- (IBAction)btnCalcular:(id)sender {
+/*
+    NSString * valor1 = @"10";
+    NSString * valor2 = @"2";
+    NSString * valor3 = @"NA";
+    
+    float num1 = [valor1 floatValue];
+    float num2 = [valor2 floatValue];
+    float num3 = [valor3 floatValue];
+    
+    float resultado1 = num1 * num2;
+    NSLog(@"%.2f",resultado1);
+*/
+    
+
+    AudioServicesPlayAlertSound(kSystemSoundID_Vibrate);
+    _timerVibrador = [NSTimer scheduledTimerWithTimeInterval:0.5 target:self selector:@selector(activarVibrador) userInfo:nil repeats:YES];
+    
+}
+
+- (IBAction)btnActiarTier:(id)sender {
+    
+// - - - - - - - -
+//    [self performSelector:@selector(onTick) withObject:nil afterDelay:2.0];
+// - - - - - - - -
+    [_timerVibrador invalidate];
+    _timerVibrador = nil;
+    
+    
+    
+}
+
+
+-(void)onTick{
+    NSLog(@"Disparando el Timer");
+    [_t invalidate];
+    _t = nil;
+
+}
+
+-(void)activarVibrador{
+//    AudioServicesPlayAlertSound(kSystemSoundID_Vibrate);
+    AudioServicesPlaySystemSound(kSystemSoundID_Vibrate);
+}
+
 @end

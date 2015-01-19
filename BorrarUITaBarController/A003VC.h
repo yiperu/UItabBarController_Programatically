@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+#import "SubTerceroVC.h"
+
+#import "MiTabBarController.h"
+
 @interface A003VC : UIViewController
+
+- (IBAction)btnSiguiente:(id)sender;
+
 
 @end

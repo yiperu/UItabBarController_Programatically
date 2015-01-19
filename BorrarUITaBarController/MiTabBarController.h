@@ -11,6 +11,14 @@
 #import "A002VC.h"
 #import "A003VC.h"
 
+#import "A003VC.h"
+
+#import "SubTerceroVC.h"
+#import "SubTerceroVC.h"
+#import "Sub2TerceroVC.h"
+
+
+
 @interface MiTabBarController : UITabBarController <UINavigationControllerDelegate>
 
 

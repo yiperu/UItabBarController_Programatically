@@ -1,23 +1,22 @@
 //
-//  A003VC.m
+//  SubTerceroVC.m
 //  BorrarUITaBarController
 //
-//  Created by Henry AT on 12/29/14.
+//  Created by Henry AT on 12/30/14.
 //  Copyright (c) 2014 Apps4s. All rights reserved.
 //
 
-#import "A003VC.h"
+#import "SubTerceroVC.h"
 
-@interface A003VC ()
+@interface SubTerceroVC ()
 
 @end
 
-@implementation A003VC
+@implementation SubTerceroVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -35,23 +34,18 @@
 }
 */
 
-- (IBAction)btnSiguiente:(id)sender {
+- (IBAction)btnSalir:(id)sender {
     
-
-//    UIApplication * application = [UIApplication sharedApplication];
-//    UIWindow *backWindow = application.windows[0];
+//    [self dismissViewControllerAnimated:NO completion:nil];
+    NSLog(@"Aqui deveria Salir");
     
-//    UIStoryboard *myStoryboard = backWindow.rootViewController.storyboard;
-//    MiTabBarController * tabTemp = (MiTabBarController *)backWindow.rootViewController.tabBarController;
-    
+//    [self.presentingViewController dismissViewControllerAnimated:YES
+//                                                      completion:nil];
 
     
-    SubTerceroVC * ff = [self.navigationController.viewControllers objectAtIndex:1];
-
-    
-    [self.navigationController pushViewController:ff animated:YES];
-    
-    
+    [self.navigationController popViewControllerAnimated:YES];
     
 }
+
+
 @end

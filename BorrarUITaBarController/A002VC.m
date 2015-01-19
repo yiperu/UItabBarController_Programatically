@@ -34,4 +34,33 @@
 }
 */
 
+- (IBAction)btnPopup1:(id)sender {
+    
+    
+    UIApplication * application = [UIApplication sharedApplication];
+    UIWindow *backWindow = application.windows[0];
+    UIStoryboard *myStoryboard = backWindow.rootViewController.storyboard;
+    static NSString * codStoryboard4 = @"idSB04";
+    A004VC * a004VC = [myStoryboard instantiateViewControllerWithIdentifier:codStoryboard4];
+
+    
+//    ContentViewController *contentViewController = [[ContentViewController alloc] initWithNibName:@"ContentViewController" bundle:nil];
+    
+    // create icon images shown in statusbar
+//    NSImage *image = [NSImage imageNamed:@"cloud"];
+//    NSImage *alternateImage = [NSImage imageNamed:@"cloudgrey"];
+//    
+//    AXStatusItemPopup *statusItemPopup = [[AXStatusItemPopup alloc] initWithViewController:a004VC image:image alternateImage:alternateImage];
+    
+
+    
+    
+}
+
+
+- (IBAction)btnPopup2:(id)sender {
+}
+
+- (IBAction)btnPopup3:(id)sender {
+}
 @end

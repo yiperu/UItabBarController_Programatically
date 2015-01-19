@@ -12,6 +12,15 @@
 #import "A001VC.h"
 #import "A002VC.h"
 #import "A003VC.h"
+#import "A004VC.h"
+#import "A005VC.h"
+
+#import "TercerNC.h"
+
+#import "SubTerceroVC.h"
+#import "Sub2TerceroVC.h"
+
+
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

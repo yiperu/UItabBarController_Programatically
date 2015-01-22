@@ -62,12 +62,12 @@
     [VC3Navigation.navigationBar setTintColor:[UIColor blackColor]];
     VC3Navigation.tabBarItem.title=@"33333";
     // - - - - - - - - - - - - - - - - - - - -
-
     
     
     static NSString * codStoryboard4 = @"idSB04";
     A004VC *a004VC = [myStoryboard instantiateViewControllerWithIdentifier:codStoryboard4];
     a004VC.tabBarItem.title=@"44444";
+
     
     static NSString * codStoryboard5 = @"idSB05";
     A005VC *a005VC = [myStoryboard instantiateViewControllerWithIdentifier:codStoryboard5];

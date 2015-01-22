@@ -13,6 +13,13 @@
 		1E2992B71A52E07D00973B7E /* SubTerceroVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2992B61A52E07D00973B7E /* SubTerceroVC.m */; };
 		1E2992BA1A52E3E000973B7E /* Sub2TerceroVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2992B91A52E3E000973B7E /* Sub2TerceroVC.m */; };
 		1E2992BC1A53405000973B7E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E2992BB1A53405000973B7E /* AudioToolbox.framework */; };
+		1E4A24921A6FF8A0004F11E5 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E4A24911A6FF8A0004F11E5 /* CFNetwork.framework */; };
+		1E4A24941A6FF8B6004F11E5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E4A24931A6FF8B6004F11E5 /* SystemConfiguration.framework */; };
+		1E4A24961A6FF8BF004F11E5 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E4A24951A6FF8BF004F11E5 /* MobileCoreServices.framework */; };
+		1E4A24981A6FF8CC004F11E5 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E4A24971A6FF8CC004F11E5 /* libz.dylib */; };
+		1E4A24DD1A7199F6004F11E5 /* MiLocalizacion.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E4A24DC1A7199F6004F11E5 /* MiLocalizacion.m */; };
+		1E4A24DF1A719A72004F11E5 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E4A24DE1A719A71004F11E5 /* AddressBook.framework */; };
+		1E4A24E11A719ACF004F11E5 /* arrest.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E4A24E01A719ACF004F11E5 /* arrest.png */; };
 		1E6F4DB31A51C132009CEC4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6F4DB21A51C132009CEC4A /* main.m */; };
 		1E6F4DB61A51C132009CEC4A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6F4DB51A51C132009CEC4A /* AppDelegate.m */; };
 		1E6F4DBC1A51C132009CEC4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E6F4DBA1A51C132009CEC4A /* Main.storyboard */; };
@@ -49,6 +56,7 @@
 		1E6F4E151A51F109009CEC4A /* A003VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6F4E141A51F109009CEC4A /* A003VC.m */; };
 		1EE699411A6D81BE0093A93B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EE699401A6D81BE0093A93B /* CoreLocation.framework */; };
 		1EE699431A6D8C720093A93B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EE699421A6D8C720093A93B /* MapKit.framework */; };
+		B91BCB37D892891FC400C619 /* libPods-BorrarUITaBarController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D0FC965F33485453F9CA038D /* libPods-BorrarUITaBarController.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +81,14 @@
 		1E2992B81A52E3E000973B7E /* Sub2TerceroVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sub2TerceroVC.h; sourceTree = "<group>"; };
 		1E2992B91A52E3E000973B7E /* Sub2TerceroVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sub2TerceroVC.m; sourceTree = "<group>"; };
 		1E2992BB1A53405000973B7E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		1E4A24911A6FF8A0004F11E5 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		1E4A24931A6FF8B6004F11E5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1E4A24951A6FF8BF004F11E5 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		1E4A24971A6FF8CC004F11E5 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		1E4A24DB1A7199F6004F11E5 /* MiLocalizacion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiLocalizacion.h; sourceTree = "<group>"; };
+		1E4A24DC1A7199F6004F11E5 /* MiLocalizacion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiLocalizacion.m; sourceTree = "<group>"; };
+		1E4A24DE1A719A71004F11E5 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		1E4A24E01A719ACF004F11E5 /* arrest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrest.png; sourceTree = "<group>"; };
 		1E6F4DAD1A51C132009CEC4A /* BorrarUITaBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BorrarUITaBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E6F4DB11A51C132009CEC4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E6F4DB21A51C132009CEC4A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -118,6 +134,9 @@
 		1E6F4E141A51F109009CEC4A /* A003VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = A003VC.m; sourceTree = "<group>"; };
 		1EE699401A6D81BE0093A93B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		1EE699421A6D8C720093A93B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		441AC4D3F58CA0276BE371A8 /* Pods-BorrarUITaBarController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BorrarUITaBarController.release.xcconfig"; path = "Pods/Target Support Files/Pods-BorrarUITaBarController/Pods-BorrarUITaBarController.release.xcconfig"; sourceTree = "<group>"; };
+		CB4F146FD15A09416DA7CF18 /* Pods-BorrarUITaBarController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BorrarUITaBarController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BorrarUITaBarController/Pods-BorrarUITaBarController.debug.xcconfig"; sourceTree = "<group>"; };
+		D0FC965F33485453F9CA038D /* libPods-BorrarUITaBarController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BorrarUITaBarController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,9 +144,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E4A24DF1A719A72004F11E5 /* AddressBook.framework in Frameworks */,
+				1E4A24981A6FF8CC004F11E5 /* libz.dylib in Frameworks */,
+				1E4A24961A6FF8BF004F11E5 /* MobileCoreServices.framework in Frameworks */,
+				1E4A24941A6FF8B6004F11E5 /* SystemConfiguration.framework in Frameworks */,
+				1E4A24921A6FF8A0004F11E5 /* CFNetwork.framework in Frameworks */,
 				1EE699431A6D8C720093A93B /* MapKit.framework in Frameworks */,
 				1EE699411A6D81BE0093A93B /* CoreLocation.framework in Frameworks */,
 				1E2992BC1A53405000973B7E /* AudioToolbox.framework in Frameworks */,
+				B91BCB37D892891FC400C619 /* libPods-BorrarUITaBarController.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,22 +166,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1E2992BD1A534A2D00973B7E /* Librerias */ = {
+		1E2992BD1A534A2D00973B7E /* ClasePing */ = {
 			isa = PBXGroup;
 			children = (
+				1E4A24DB1A7199F6004F11E5 /* MiLocalizacion.h */,
+				1E4A24DC1A7199F6004F11E5 /* MiLocalizacion.m */,
 			);
-			name = Librerias;
+			name = ClasePing;
 			sourceTree = "<group>";
 		};
 		1E6F4DA41A51C132009CEC4A = {
 			isa = PBXGroup;
 			children = (
+				1E4A24971A6FF8CC004F11E5 /* libz.dylib */,
+				1E4A24951A6FF8BF004F11E5 /* MobileCoreServices.framework */,
+				1E4A24931A6FF8B6004F11E5 /* SystemConfiguration.framework */,
+				1E4A24911A6FF8A0004F11E5 /* CFNetwork.framework */,
 				1EE699421A6D8C720093A93B /* MapKit.framework */,
 				1EE699401A6D81BE0093A93B /* CoreLocation.framework */,
 				1E2992BB1A53405000973B7E /* AudioToolbox.framework */,
 				1E6F4DAF1A51C132009CEC4A /* BorrarUITaBarController */,
 				1E6F4DC91A51C132009CEC4A /* BorrarUITaBarControllerTests */,
 				1E6F4DAE1A51C132009CEC4A /* Products */,
+				9887F3E5C5E5A460A2084660 /* Pods */,
+				DB408718DACE6B03318613D6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -172,7 +205,7 @@
 		1E6F4DAF1A51C132009CEC4A /* BorrarUITaBarController */ = {
 			isa = PBXGroup;
 			children = (
-				1E2992BD1A534A2D00973B7E /* Librerias */,
+				1E2992BD1A534A2D00973B7E /* ClasePing */,
 				1E6F4E0D1A51F0DD009CEC4A /* A001VC.h */,
 				1E6F4E0E1A51F0DD009CEC4A /* A001VC.m */,
 				1E6F4E101A51F0F5009CEC4A /* A002VC.h */,
@@ -231,6 +264,7 @@
 		1E6F4DD61A51D577009CEC4A /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				1E4A24E01A719ACF004F11E5 /* arrest.png */,
 				1E6F4DD71A51D577009CEC4A /* 1Star.png */,
 				1E6F4DD81A51D577009CEC4A /* 1Star@2x.png */,
 				1E6F4DD91A51D577009CEC4A /* 1StarSmall.png */,
@@ -259,6 +293,24 @@
 			path = Images;
 			sourceTree = "<group>";
 		};
+		9887F3E5C5E5A460A2084660 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB4F146FD15A09416DA7CF18 /* Pods-BorrarUITaBarController.debug.xcconfig */,
+				441AC4D3F58CA0276BE371A8 /* Pods-BorrarUITaBarController.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DB408718DACE6B03318613D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E4A24DE1A719A71004F11E5 /* AddressBook.framework */,
+				D0FC965F33485453F9CA038D /* libPods-BorrarUITaBarController.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -266,9 +318,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E6F4DD01A51C132009CEC4A /* Build configuration list for PBXNativeTarget "BorrarUITaBarController" */;
 			buildPhases = (
+				6AF91A4422A7E24907A3191B /* Check Pods Manifest.lock */,
 				1E6F4DA91A51C132009CEC4A /* Sources */,
 				1E6F4DAA1A51C132009CEC4A /* Frameworks */,
 				1E6F4DAB1A51C132009CEC4A /* Resources */,
+				92B03B3698DC4C9F32926C39 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -349,6 +403,7 @@
 				1E6F4DC11A51C132009CEC4A /* LaunchScreen.xib in Resources */,
 				1E6F4E041A51D577009CEC4A /* Gestures@2x.png in Resources */,
 				1E6F4DF71A51D577009CEC4A /* 3Stars.png in Resources */,
+				1E4A24E11A719ACF004F11E5 /* arrest.png in Resources */,
 				1E6F4E031A51D577009CEC4A /* Gestures.png in Resources */,
 				1E6F4DBE1A51C132009CEC4A /* Images.xcassets in Resources */,
 				1E6F4E051A51D577009CEC4A /* Players.png in Resources */,
@@ -378,6 +433,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6AF91A4422A7E24907A3191B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		92B03B3698DC4C9F32926C39 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BorrarUITaBarController/Pods-BorrarUITaBarController-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1E6F4DA91A51C132009CEC4A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -392,6 +480,7 @@
 				1E6F4DB61A51C132009CEC4A /* AppDelegate.m in Sources */,
 				1E6F4E0C1A51F07D009CEC4A /* MiTabBarController.m in Sources */,
 				1E6F4E0F1A51F0DD009CEC4A /* A001VC.m in Sources */,
+				1E4A24DD1A7199F6004F11E5 /* MiLocalizacion.m in Sources */,
 				1E6F4E121A51F0F5009CEC4A /* A002VC.m in Sources */,
 				1E6F4DB31A51C132009CEC4A /* main.m in Sources */,
 			);
@@ -513,6 +602,7 @@
 		};
 		1E6F4DD11A51C132009CEC4A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB4F146FD15A09416DA7CF18 /* Pods-BorrarUITaBarController.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BorrarUITaBarController/Info.plist;
@@ -523,6 +613,7 @@
 		};
 		1E6F4DD21A51C132009CEC4A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 441AC4D3F58CA0276BE371A8 /* Pods-BorrarUITaBarController.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BorrarUITaBarController/Info.plist;
